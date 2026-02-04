@@ -1,0 +1,151 @@
+.intro{
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(31, 35, 40);
+    font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial;
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.description{
+    font-size: 14px;
+    margin-top: 40px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+.text-description{
+    color: rgb(89, 99, 110);
+    line-height: 24px;
+    /* font-weight: 400; */
+}
+.free_button{
+    background-color: rgb(27, 31, 35);
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 6px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%), none;
+    color: white;
+    text-decoration: none;
+}
+.body{
+    box-sizing: border-box;
+    /* height: 3190px; */
+    line-height: 21px;
+    color: rgb(31, 35, 40);
+    font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial;
+}
+.inside-body{
+    padding:0px, 40px;
+    text-align: center;
+}
+.cards{
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    line-height: 21px;
+    /* i need to adjust it */
+    height: 1106px;
+    width: 602.4px;
+}
+.card{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 16px;
+    /* height: 339px;
+    width: 602.4px; */
+}
+.card-inside{
+    padding-inline: 8px;
+    padding-bottom: 8px;
+    padding-top: 32px;
+}
+.card-colors{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgb(209, 217, 224) 0px 0px 0px 1px, rgba(37, 41, 46, 0.32) 0px 56px 112px 0px;
+    box-sizing: border-box;
+    color: rgb(31, 35, 40);
+    display: block;
+    flex-direction: column;
+    height: 299px;
+    justify-content: space-between;
+    line-height: 21px;
+    text-align: center;
+    /* width: 586.4px; */
+}
+.card-heading{
+    box-sizing: border-box;
+    padding-inline: 16px;
+    padding-bottom: 16px;
+    padding-top: 24px;
+    display: block;
+    text-align: center;
+    /* height: 235px; */
+    /* width: 500.8px; */
+}
+.heading-text{
+    box-sizing: border-box;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    /* height: 24px; */
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+    /* width: 468.8px; */
+}
+.card-description{
+    box-sizing: border-box;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    line-height: 17.5px;
+    /* height: 164px; */
+    text-align: center;
+    text-size-adjust: 100%;
+    /* width: 55.2px; */
+    color:rgb(89, 99, 110);
+}
+.price{
+    text-align: center;
+}
+.flex-text{
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+.sup-currency{
+    color: rgb(89, 99, 110); top: -9px;
+}
+.number{
+    font-size: 28px;
+}
+.currency{
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+.per-month{
+    color: rgb(89, 99, 110);
+    line-height: 24px;
+    overflow-wrap: break-word;
+}
+.price-flex{
+    overflow-wrap: break-word;
+    /* text-align: center; */
+}
+.create-button{
+    margin-top: 8px;
+    text-align: center;
+}
+.create-button-link{
+    padding: 16px 24px;
+}
