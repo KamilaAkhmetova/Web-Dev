@@ -46,20 +46,23 @@ h1{
     text-align: center;
 }
 .cards{
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
-    display: block;
+    /* display: block; */
     justify-content: center;
     line-height: 21px;
+    width: 100%;
     /* i need to adjust it */
-    height: 1106px;
-    width: 602.4px;
+    /* height: 1106px; */
+    /* width: 602.4px; */
 }
 .card{
+    
     box-sizing: border-box;
     display: block;
     margin-bottom: 16px;
-    /* height: 339px;
-    width: 602.4px; */
+    
 }
 .card-inside{
     padding-inline: 8px;
@@ -80,6 +83,10 @@ h1{
     text-align: center;
     /* width: 586.4px; */
 }
+/* .enterprise-box{
+    display: flex;
+
+} */
 .card-heading{
     box-sizing: border-box;
     padding-inline: 16px;
@@ -145,7 +152,85 @@ h1{
 .create-button{
     margin-top: 8px;
     text-align: center;
+    /* not sure */
+    /* line-height: 21px;
+    text-align: center;
+    overflow-wrap: break-word;
+    text-size-adjust: 100%; */
+    
 }
 .create-button-link{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
     padding: 16px 24px;
+    border-radius: 6px;
+    color: rgb(31, 35, 40);
+    text-decoration: none;
+}
+.create-button-link:hover{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 0px 2px inset;
+}
+.continue-button{
+    background-color: rgb(27, 31, 35);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%), none;
+    color: white;
+
+}
+.enterprise-card-inside{
+    background-image: radial-gradient(circle, rgb(33, 136, 255) 0%, rgb(33, 136, 255) 48%, rgb(13, 116, 236) 85%, rgb(13, 116, 236) 98%);
+    border-radius: 12px;
+}
+.two-buttons{
+    line-height: 21px;
+    text-align: center;
+    overflow-wrap: break-word;
+    text-size-adjust: 100%;
+}
+.two-buttons-margin{
+    display: flex;
+    flex-direction: row;
+    line-height: 21px;
+    margin-inline: -8px;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+/* .start-free-button{
+    background-color: rgb(27, 31, 35);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%), none;
+    color: white;
+} */
+/* .contact-sales-button{
+    display: block;
+    line-height: 21px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-size-adjust: 100%;
+    padding-inline: 8px;
+    margin-bottom: 8px;
+    width: 754.4px;
+} */
+/* .start-free-button{
+    /* display: block;
+    padding-inline: 8px; */
+    /* width: 754.4px; */
+    /* /* line-height: 21px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-size-adjust: 100%; */
+/* }  */ 
+.addition-title{
+    margin: 48px 0px;
+    text-align: center;   
+}
+.additional-grid{
+    margin-inline: -16px;
+    display: grid;
+    grid-template-columns: 272.8px 272.8px 272.8px 272.8px;
+}
+.grid-cell{
+    padding-inline: 16px;
+    margin-bottom: 36px;
+    margin-left: 20px;
+}
+h3{
+    margin-bottom: 16px;
 }
