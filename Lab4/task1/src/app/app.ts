@@ -12,6 +12,8 @@ import { Componentoutput } from './components/componentoutput/componentoutput';
 import { Deferrableviews } from './components/deferrableviews/deferrableviews';
 import { Optimizingimages } from './components/optimizingimages/optimizingimages';
 import { Enablingrouting } from './components/enablingrouting/enablingrouting';
+// import { Routehome } from './components/routehome/routehome';
+// import { Routeuser } from './components/routeuser/routeuser';
 
 
 @Component({
@@ -19,7 +21,7 @@ import { Enablingrouting } from './components/enablingrouting/enablingrouting';
   standalone:true,
   imports: [RouterOutlet, Anatomy, Updating, Composition, Ifcontrol, Forcontrol, PropertyBinding,
     Eventhandling, Componentinput, Componentoutput, Deferrableviews, Optimizingimages,
-    Enablingrouting
+    Enablingrouting, 
   ],
   template: `
     <app-anatomy></app-anatomy><br>
@@ -35,6 +37,8 @@ import { Enablingrouting } from './components/enablingrouting/enablingrouting';
     <app-deferrableviews></app-deferrableviews><br>
     <app-optimizingimages></app-optimizingimages><br>
     <app-enablingrouting></app-enablingrouting><br>
+    <router-outlet></router-outlet>
+
 
   `,
 })
