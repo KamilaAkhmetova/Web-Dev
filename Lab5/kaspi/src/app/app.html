@@ -1,0 +1,27 @@
+<header class="header">
+  <div class="container header-inner">
+    <img class="logo" src="kaspi_logo.svg" alt="Kaspi" />
+  </div>
+</header>
+
+<main class="container">
+   <div class="filters-row">
+      <div class="search-container">
+        <label for="search">Search products</label>
+        <input id="search" type="text" [(ngModel)]="searchQuery" placeholder="Search by product name..." />
+      </div>
+
+      <div class="filter-container">
+        <label for="category">Category</label>
+        <select id="category" [(ngModel)]="selectedCategory">
+          @for (category of categories; track category.id) {
+          <option [value]="category.id">{{ category.name }}</option>
+          }
+        </select>
+      </div>
+    </div>
+    <!--  -->
+    <!-- <router-outlet></router-outlet> -->
+
+    <app-product-list [products]="filteredProducts" (remove)="onProductRemove($event)" />
+</main>
