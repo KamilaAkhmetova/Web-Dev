@@ -3,21 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+header{
+  background-color: black;
+  color: #999;
+}
 
 body {
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
   padding: 20px;
 }
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
-  background: white;
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 4px;
 }
-
 h1 {
   margin-bottom: 20px;
 }
@@ -37,24 +37,19 @@ h1 {
 
 .btn-add {
   padding: 10px 20px;
-  background: #00701c;
+  background:  rgb(45, 137, 235);
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.task-list {
-  list-style: none;
-}
 
 .task-item {
   display: flex;
   align-items: center;
   padding: 10px;
-  background: #f9f9f9;
-  border-radius: 4px;
-  margin-bottom: 10px;
+  border: 1px, solid, #ddd;
 }
 
 .task-checkbox {

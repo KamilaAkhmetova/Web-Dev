@@ -2,7 +2,11 @@ const taskForm = document.getElementById('taskForm');
 const taskInput = document.getElementById('taskInput');
 const taskList = document.getElementById('taskList');
 
+let counter = 0;
 function createTaskElement(taskText) {
+  
+  counter += 1;
+
   const taskItem = document.createElement('li');
   taskItem.className = 'task-item';
 
@@ -17,7 +21,9 @@ function createTaskElement(taskText) {
   const deleteButton = document.createElement('button');
   deleteButton.className = 'btn-delete';
   deleteButton.textContent = 'Delete';
-
+  
+  if(counter > 5) alert('You cant add more tasks');
+  
   taskItem.appendChild(checkbox);
   taskItem.appendChild(taskTextSpan);
   taskItem.appendChild(deleteButton);
@@ -42,9 +48,12 @@ function handleDeleteClick(event) {
 
 function handleFormSubmit(event) {
   event.preventDefault();
-
+  
   const taskText = taskInput.value.trim();
-
+  if (taskText.length > 6) {
+    alert('You cant enter more than 6');
+    return;
+  }
   if (taskText === '') {
     return;
   }
