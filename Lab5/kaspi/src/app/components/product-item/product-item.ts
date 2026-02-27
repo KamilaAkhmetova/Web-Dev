@@ -9,14 +9,14 @@ import { Product } from '../../models/product.model';
 })
 export class ProductItem {
   product = input.required<Product>();
-    delete = output<number>();
+  delete = output<number>();
 
-    selectedImage = 0;
-    shareOpen = false;
-    readonly stars = [1, 2, 3, 4, 5];
+  selectedImage = 0;
+  shareOpen = false;
+  readonly stars = [1, 2, 3, 4, 5];
 
-    selectImage(index: number): void {
-        this.selectedImage = index;
+  selectImage(index: number): void {
+          this.selectedImage = index;
     }
 
     prevImage(): void {
@@ -44,9 +44,6 @@ export class ProductItem {
         return price.toLocaleString('ru-KZ');
     }
 
-    getInstallment(price: number): number {
-        return Math.ceil(price / 3);
-    }
 
     like(): void {
         this.product().likes++;

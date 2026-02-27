@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Arctic Monkeys - AM",
+    "description": "Arctic Monkeys - AM description",
+    "price": 28999,
+    "rating": 5,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h0e/h16/64395659345950.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/h0e/h16/64395659345950.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/p63/pf5/78003887.png?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/p7f/pf5/78003888.png?format=gallery-medium"
+    ],
+    "link": "https://kaspi.kz/shop/p/arctic-monkeys---am-106709569/?c=750000000"
+  },
+  {
+    "id": 2,
+    "name": "The Doors - 13",
+    "description": "The Doors - 13 description",
+    "price": 26435,
+    "rating": 5,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hc9/h72/64842708090910.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/hc9/h72/64842708090910.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/h42/h69/64842710581278.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/h86/h72/86576024715294.jpg?format=gallery-medium"
+    ],
+    "link": "https://kaspi.kz/shop/p/the-doors---13-103534830/?c=750000000"
+  },
+  {
+    "id": 3,
+    "name": "Linkin Park - Hybrid Theory",
+    "description": "Linkin Park - Hybrid Theory",
+    "price": 33790,
+    "rating": 5.0,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h8e/hca/68203271323678.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/h8e/hca/68203271323678.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/p45/pa4/77999624.png?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/pd5/pa3/77999628.png?format=gallery-medium"
+    ],
+    "link": "https://kaspi.kz/shop/p/linkin-park---hybrid-theory-108571484/?c=750000000"
+  },
+  {
+    "id": 4,
+    "name": "Deftones Gore",
+    "description": "Deftones Gore description",
+    "price": 42520,
+    "rating": 4.9,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h64/he9/85484838879262.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/h64/he9/85484838879262.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/h53/hed/85484839010334.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/pca/p6a/55042985.jpg?format=gallery-medium"
+    ],
+    "link": "https://kaspi.kz/shop/p/deftones-gore-117606331/?c=750000000"
+  },
+  {
+    "id": 5,
+    "name": "Queen GreatHits50 Limited Edition",
+    "description": "Queen GreatHits50 Limited Edition description",
+    "price": 26990,
+    "rating": 5,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p27/p97/36038515.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/p27/p97/36038515.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/p43/p97/36038516.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/p60/p97/36038517.jpg?format=gallery-medium"
+    ],
+    "link": "https://kaspi.kz/shop/p/queen-greathits50-limited-edition-137940110/?c=750000000"
+  },
+  {
+    "id": 6,
+    "name": "Sade - The Best Of Sade",
+    "description": "Sade - The Best Of Sade description",
+    "price": 35800,
+    "rating": 5,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h84/h4f/68002217197598.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/h84/h4f/68002217197598.jpg?format=gallery-medium",
+      "https://i.ytimg.com/vi/zuL50YnlEQQ/maxresdefault.jpg",
+      "https://i.ytimg.com/vi/tONNUHYzdmA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AGIBoAC0AWKAgwIABABGGUgXihSMA8=&rs=AOn4CLCcT0sHszYvefd_unr3_ZDY_uvf_w"
+    ],
+    "link": "https://kaspi.kz/shop/p/sade---the-best-of-sade-108492588/?c=750000000"
+  },
+  {
+    "id": 7,
+    "name": "Дос-Мукасан Дос-Мукасан LP",
+    "description": "Дос-Мукасан Дос-Мукасан LP description",
+    "price": 45800,
+    "rating": 5.0,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p7e/pa9/22445626.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/p7e/pa9/22445626.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/p9a/pa9/22445627.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/pb6/pa9/22445628.jpg?format=gallery-medium"
+    ],
+    "link": "https://kaspi.kz/shop/p/dos-mukasan-dos-mukasan-lp-120849851/?c=750000000"
+  },
+  {
+    "id": 8,
+    "name": "Кино Звезда по имени Солнце",
+    "description": "Кино Звезда по имени Солнце description",
+    "price": 84000,
+    "rating": 5.0,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h56/h4e/83846862962718.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/h56/h4e/83846862962718.jpg?format=gallery-medium",
+      "https://i.ytimg.com/vi/3Dmz8JqI_zI/maxresdefault.jpg",
+      "https://img.1tv.com/img/2012-06-04/fmt_87_24_kino.jpg"
+    ],
+    "link": "https://kaspi.kz/shop/p/kino-zvezda-po-imeni-solntse-113375079/?c=750000000"
+  },
+  {
+    "id": 9,
+    "name": "Radiohead - OK Computer (CD)",
+    "description": "Radiohead - OK Computer (CD) description",
+    "price": 11390,
+    "rating": 5,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p25/p1c/40010125.jpeg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/p25/p1c/40010125.jpeg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/pbb/p18/40010126.jpeg?format=gallery-medium",
+      "https://lastfm.freetls.fastly.net/i/u/ar0/6d8a0ddc16e80c9936ca0757597950e1.jpg"
+    ],
+    "link": "https://kaspi.kz/shop/p/radiohead---ok-computer-cd--139028533/?c=750000000"
+  },
+  {
+    "id": 10,
+    "name": "AC/DC - Highway To Hell (Limited Edition)",
+    "description": "AC/DC - Highway To Hell (Limited Edition) description",
+    "price": 39990,
+    "rating": 5,
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h83/h3b/67835697725470.jpg?format=gallery-medium",
+    "images": [
+      "https://resources.cdn-kaspi.kz/img/m/p/h83/h3b/67835697725470.jpg?format=gallery-medium",
+      "https://resources.cdn-kaspi.kz/img/m/p/pf1/p00/111439422.png?format=gallery-medium",
+      "https://cdn-p.smehost.net/sites/8b1e6d6acca64219885907195642a0de/wp-content/uploads/2021/05/7.jpg"
+    ],
+    "link": "https://kaspi.kz/shop/p/ac-dc---highway-to-hell-limited-edition--108425912/?c=750000000"
+  }
+]
