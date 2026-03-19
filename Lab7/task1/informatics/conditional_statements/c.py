@@ -1,0 +1,5 @@
+test = int(input())
+answer = int(input())
+if(answer == 1 and test != 1): print("NO")
+elif(test == 1 and answer != 1): print("NO")
+else: print("YES")
